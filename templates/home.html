@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Welcome, {{ current_user.email }}!</h2>
+<p>Last login: {{ last_login }}</p>
+<p>Explore available <a href="{{ url_for('courses') }}">courses</a>.</p>
+{% endblock %}
