@@ -127,4 +127,5 @@ if __name__ == "__main__":
             db.session.add_all(sample_courses)
             db.session.commit()
 
-    app.run(debug=True)
+    app.run(debug=False)
+
